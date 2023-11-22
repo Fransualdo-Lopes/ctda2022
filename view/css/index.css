@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Outfit", sans-serif;
+}
+
+.slider {
+    position: relative;
+    width: 900px;
+    height: 538px;
+    border-radius: 15px 15px 15px 15px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px rgb(80, 92, 86);
+}
+
+.slider img {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.slider img.selected {
+    opacity: 1;
+}
+
+.botaomenu {
+    display: block;
+    background-color: #1B6204;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+
+.botaomenu:hover {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 40px;
+    color: #1B6204;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 40px;
+    color: #1B6204;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    color: #1B6204;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    margin: 10px;
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+}
+
+p {
+    margin: 10px;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu {
+    width: 100%;
+    background-color: white;
+    color: #1B6204;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 0px 15px rgb(92, 92, 92);
+}
+
+.caixaopcoes {
+    display: none;
+}
+
+#section-0001 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#imgctda {
+    margin: 5px;
+}
+
+.tema {
+    width: 900px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#principal-000 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(92, 92, 92);
+    border-radius: 15px 15px 15px 15px;
+    width: 900px;
+    margin: 10px;
+}
+
+.mesmalinha {
+    flex-direction: row;
+    background-color: rgb(233, 231, 231);
+    width: 900px;
+}
+
+.mesmalinhanormal {
+    flex-direction: row;
+    background-color: white;
+}
+
+
+.eventos {
+    background-color: rgb(69, 158, 128);
+    color: white;
+    width: 950px;
+    height: 50px;
+    margin: 0;
+    flex-direction: row;
+    align-items: center;
+}
+
+video {
+    width: 900px;
+    margin: 40px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 5px rgb(92, 92, 92);
+    margin-bottom: 30px;
+}
+
+.imgEventos {
+    margin-top: 1px;
+}
+
+.imgNatureza {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+@media(max-width: 900px) {
+    .corpo {
+        width: 350px;
+    }
+
+    #imgctda {
+        width: 350px;
+    }
+
+    main {
+        width: 340px;
+    }
+
+    .mapa {
+        width: 340px;
+    }
+
+    .slider {
+        width: 350px;
+        height: 250px;
+    }
+
+    .tema {
+        width: 350px;
+    }
+
+    marquee {
+        width: 350px;
+    }
+
+    video {
+        width: 350px;
+    }
+
+    .imgNatureza {
+        width: 150%;
+    }
+}
+
+@media(max-width: 380px) {
+    .corpo {
+        width: 280px;
+    }
+
+    #imgctda {
+        width: 280px;
+    }
+
+    main {
+        width: 280px;
+    }
+
+    .mapa {
+        width: 280px;
+    }
+
+    .slider {
+        width: 280px;
+        height: 250px;
+    }
+
+    .tema {
+        width: 280px;
+    }
+
+    marquee {
+        width: 280px;
+    }
+
+    video {
+        width: 280px;
+    }
+}

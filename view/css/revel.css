@@ -1,0 +1,54 @@
+.titulo-01 {
+    visibility: hidden;
+}
+
+.titulo-100 {
+  visibility: hidden;
+}
+
+.titulo-101 {
+  visibility: hidden;
+}
+
+.p-box-conatiner {
+  visibility: hidden;
+}
+
+  :root {
+    --gradient: linear-gradient(to right, #27833b, #7c7070);
+  }
+  
+  .gradient {
+    background: var(--gradient);
+  }
+  
+  .linha-00 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 3rem 0; /* margim de uma section a outra */
+  }
+  
+  .linha-00 .coil {
+    border-top: rgb(69, 158, 128) solid 0.01rem;
+    width: 44.75%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .linha-00 .bar {
+    margin-left: -5%;
+    margin-right: -5%;
+    width: 0.2%;
+    height: 2rem; /* tamanho da linha vertical */
+  }
+  
+  .linha-00.direito {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
